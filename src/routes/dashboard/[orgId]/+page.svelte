@@ -223,6 +223,7 @@
         <input
             type="hidden"
             name="organizationId"
+            onreset={(e) => e.preventDefault()}
             onsubmit={(e) =>
                 (e.currentTarget.value = scheduleToCreate.organizationId || "")}
             value={scheduleToCreate.organizationId}
@@ -232,6 +233,7 @@
             class="hidden"
             name="day"
             value={scheduleToCreate.day}
+            onreset={(e) => e.preventDefault()}
             onsubmit={(e) =>
                 (e.currentTarget.value = (daySelected || 0).toString())}
         />
