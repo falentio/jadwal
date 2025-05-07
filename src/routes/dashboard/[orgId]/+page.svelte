@@ -229,8 +229,7 @@
             value={scheduleToCreate.organizationId}
         />
         <input
-            type="number"
-            class="hidden"
+            type="hidden"
             name="day"
             value={scheduleToCreate.day}
             onreset={(e) => e.preventDefault()}
