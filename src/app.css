@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@theme  {
+    --font-sans: 'Montserrat Variable', sans-serif;
+}
+
+@layer base {
+    * {
+        box-sizing: border-box;
+        @apply border-blue-100
+    }
+    html {
+        @apply font-sans
+    }
+}

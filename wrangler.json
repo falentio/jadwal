@@ -1,0 +1,14 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "compatibility_date": "2025-04-01",
+    "d1_databases": [
+        {
+            "binding": "DB",
+            "database_name": "jadwal",
+            "database_id": "0da34912-8a23-49c3-8612-33f77ef6c114"
+        }
+    ],
+    "observability": {
+        "enabled": true
+    }
+}
