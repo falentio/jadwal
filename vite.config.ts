@@ -13,9 +13,16 @@ export default defineConfig({
 		})
 	],
 	resolve: {
-		alias: {
-			crypto: 'node:crypto'
-		},
+		alias: [
+			{
+				find: /^crypto$/,
+				replacement: 'node:crypto'
+			},
+			{
+				find: /^crypto\/(.*)$/,
+				replacement: 'node:crypto/$1'
+			}
+		],
 		conditions: ['workerd', 'worker', 'browser']
 	},
 	test: {
