@@ -13,11 +13,7 @@
     let { selected = $bindable(0), ...props }: Props = $props();
     let open = $state(false);
 
-    $effect(() => {
-        untrack(() => open);
-        selected;
-        open = false;
-    });
+    $inspect(selected, open);
 </script>
 
 <div class="flex flex-col {props.class}">
@@ -51,6 +47,7 @@
                         type="radio"
                         bind:group={selected}
                         value={i}
+                        onchange={() => (open = false)}
                         name={props.name}
                         id="{props.name}-{i}"
                     />

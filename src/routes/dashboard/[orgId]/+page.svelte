@@ -6,6 +6,7 @@
     import type { Schedule } from "../../../server/services/schedule/schedule.types.ts";
     import type { PageProps } from "./$types";
     import School from "~icons/mdi/school-outline";
+    import Website from "~icons/mdi/web";
     import * as v from "$lib/valibot.ts";
     import { SScheduleCreate } from "../../../server/services/schedule/schedule.schema.ts";
     import { enhance } from "$app/forms";
@@ -65,8 +66,11 @@
             <span>{data.organization.description}</span>
         </section>
         <span class="flex-auto max-sm:hidden"></span>
-        <div class="max-sm:w-full flex-col hidden">
-            <Button>Edit</Button>
+        <div class="max-sm:w-full flex-col flex">
+            <Button class="flex gap-2" href="/{data.organization.websiteName}">
+                <Website class="w-4 h-4"></Website>
+                Website
+            </Button>
         </div>
     </div>
 </div>
