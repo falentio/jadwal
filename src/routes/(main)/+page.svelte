@@ -53,25 +53,74 @@
         </h2>
         <p>Kebutuhan mu dalam mengelola jadwal secara efektif</p>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 pt-4">
-            {#each Array.from({ length: 6 }) as _}
+            <div
+                class="border px-6 py-6 rounded-xl shadow-md shadow-blue-50 bg-white border-blue-100 flex flex-col gap-2"
+            >
                 <div
-                    class="border px-6 py-6 rounded-xl shadow-md shadow-blue-50 bg-white border-blue-100 flex flex-col gap-2"
+                    class="p-2 bg-blue-100 text-blue-700 w-8 h-8 flex items-center justify-center rounded-md"
                 >
-                    <div
-                        class="p-2 bg-blue-100 text-blue-700 w-8 h-8 flex items-center justify-center rounded-md"
-                    >
-                        <span>i</span>
-                    </div>
-                    <h3 class="text-lg font-semibold sm:text-xl md:text-2xl">
-                        Foo
-                    </h3>
-                    <div class="text-sm">
-                        Lorem ipsum dolor sit amet. sakndlsanm ..s daklsdkas
-                        sdaklndasjldnasjkndkas hjkb asbd jksabjkd bjkasbd
-                        jkasbkjd ba
-                    </div>
+                    <span>📅</span>
                 </div>
-            {/each}
+                <h3 class="text-lg font-semibold sm:text-xl md:text-2xl">
+                    Jadwal Interaktif
+                </h3>
+                <div class="text-sm">
+                    Lihat jadwal sekolah dalam tampilan yang interaktif dan
+                    mudah dibaca. Akses cepat untuk melihat mata pelajaran hari
+                    ini, besok, atau minggu depan.
+                </div>
+            </div>
+            <div
+                class="border px-6 py-6 rounded-xl shadow-md shadow-blue-50 bg-white border-blue-100 flex flex-col gap-2"
+            >
+                <div
+                    class="p-2 bg-blue-100 text-blue-700 w-8 h-8 flex items-center justify-center rounded-md"
+                >
+                    <span>🔗</span>
+                </div>
+                <h3 class="text-lg font-semibold sm:text-xl md:text-2xl">
+                    Berbagi Link
+                </h3>
+                <div class="text-sm">
+                    Bagikan jadwal dengan teman sekelas melalui link khusus.
+                    Mereka bisa mengakses jadwal tanpa perlu login atau membuat
+                    akun.
+                </div>
+            </div>
+            <div
+                class="border px-6 py-6 rounded-xl shadow-md shadow-blue-50 bg-white border-blue-100 flex flex-col gap-2"
+            >
+                <div
+                    class="p-2 bg-blue-100 text-blue-700 w-8 h-8 flex items-center justify-center rounded-md"
+                >
+                    <span>🌐</span>
+                </div>
+                <h3 class="text-lg font-semibold sm:text-xl md:text-2xl">
+                    Akses Multi-Platform
+                </h3>
+                <div class="text-sm">
+                    Akses jadwal dari mana saja menggunakan perangkat apapun -
+                    laptop, tablet, atau smartphone. Tampilan responsif untuk
+                    pengalaman optimal.
+                </div>
+            </div>
+            <div
+                class="border px-6 py-6 rounded-xl shadow-md shadow-blue-50 bg-white border-blue-100 flex flex-col gap-2"
+            >
+                <div
+                    class="p-2 bg-blue-100 text-blue-700 w-8 h-8 flex items-center justify-center rounded-md"
+                >
+                    <span>🔄</span>
+                </div>
+                <h3 class="text-lg font-semibold sm:text-xl md:text-2xl">
+                    Update Real-time
+                </h3>
+                <div class="text-sm">
+                    Perubahan jadwal langsung diperbarui secara real-time untuk
+                    semua pengguna, sehingga semua orang selalu memiliki
+                    informasi terbaru.
+                </div>
+            </div>
             <div></div>
         </div>
     </div>

@@ -223,7 +223,7 @@
         <input
             type="hidden"
             name="organizationId"
-            onreset={(e) =>
+            onsubmit={(e) =>
                 (e.currentTarget.value = scheduleToCreate.organizationId || "")}
             value={scheduleToCreate.organizationId}
         />
@@ -232,10 +232,8 @@
             class="hidden"
             name="day"
             value={scheduleToCreate.day}
-            onreset={(e) =>
-                (e.currentTarget.value = (
-                    scheduleToCreate.day || 0
-                ).toString())}
+            onsubmit={(e) =>
+                (e.currentTarget.value = (daySelected || 0).toString())}
         />
         <label class="flex flex-col">
             <span> Mata Pelajaran </span>
