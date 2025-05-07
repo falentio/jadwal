@@ -21,6 +21,9 @@ importers:
       '@iconify/json':
         specifier: ^2.2.333
         version: 2.2.333
+      '@opentelemetry/api':
+        specifier: ^1.9.0
+        version: 1.9.0
       '@sveltejs/adapter-cloudflare':
         specifier: ^7.0.0
         version: 7.0.1(@sveltejs/kit@2.20.7(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.2)(vite@6.3.3(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1)))(svelte@5.28.2)(vite@6.3.3(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1)))(wrangler@4.13.2(@cloudflare/workers-types@4.20250425.0))
@@ -643,6 +646,10 @@ packages:
 
   '@jsr/falentio__anaid@1.2.0':
     resolution: {integrity: sha512-vo34XNQz9LnK3qA2Dlst9ysKlP405DPr1rc75OUKfYmhMRI2q90DuEh0FDL5PMeTwomO8XMtHlWxz4UH28pd5A==, tarball: https://npm.jsr.io/~/11/@jsr/falentio__anaid/1.2.0.tgz}
+
+  '@opentelemetry/api@1.9.0':
+    resolution: {integrity: sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==}
+    engines: {node: '>=8.0.0'}
 
   '@peculiar/asn1-schema@2.3.15':
     resolution: {integrity: sha512-QPeD8UA8axQREpgR5UTAfu2mqQmm97oUqahDtNdBcfj3qAnoXzFdQW+aNf/tD2WVXF8Fhmftxoj0eMIT++gX2w==}
@@ -2382,6 +2389,8 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.5.0
 
   '@jsr/falentio__anaid@1.2.0': {}
+
+  '@opentelemetry/api@1.9.0': {}
 
   '@peculiar/asn1-schema@2.3.15':
     dependencies:
