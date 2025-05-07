@@ -61,7 +61,7 @@
     {#each schedules as schedule, i}
         {@const rowStart = Math.floor(timeToSecond(schedule.start) / 3600 + 1)}
         {@const rowEnd = Math.ceil(timeToSecond(schedule.end) / 3600 + 1)}
-        {@const hueRotate = 120 + 47}
+        {@const hueRotate = 90 + 47}
         {@const borderColor = `oklch(from var(--color-blue-200) l c calc(h + ${i * hueRotate}))`}
         {@const backgroundColor = `oklch(from var(--color-blue-100) l calc(c + 0.03) calc(h + ${i * hueRotate}))`}
         {@const textColor = `oklch(from var(--color-blue-800) l c calc(h + ${i * hueRotate}))`}
