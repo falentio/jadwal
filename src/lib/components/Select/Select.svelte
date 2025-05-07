@@ -58,13 +58,13 @@
                         }}
                     >
                         {[
+                            "minggu",
                             "senin",
                             "selasa",
                             "rabu",
                             "kamis",
                             "jumat",
                             "sabtu",
-                            "minggu",
                         ][i]}
                     </span>
                 </label>
