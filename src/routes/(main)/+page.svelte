@@ -1,5 +1,9 @@
 <script lang="ts">
     import Button from "$lib/components/Button.svelte";
+    import CalendarMonth from "~icons/mdi/calendar-month";
+    import LinkVariant from "~icons/mdi/link-variant";
+    import Earth from "~icons/mdi/earth";
+    import Sync from "~icons/mdi/sync";
 </script>
 
 <section class="bg-blue-50 py-12 md:py-24 lg:py-32">
@@ -59,7 +63,7 @@
                 <div
                     class="p-2 bg-blue-100 text-blue-700 w-8 h-8 flex items-center justify-center rounded-md"
                 >
-                    <span>📅</span>
+                    <CalendarMonth />
                 </div>
                 <h3 class="text-lg font-semibold sm:text-xl md:text-2xl">
                     Jadwal Interaktif
@@ -76,7 +80,7 @@
                 <div
                     class="p-2 bg-blue-100 text-blue-700 w-8 h-8 flex items-center justify-center rounded-md"
                 >
-                    <span>🔗</span>
+                    <LinkVariant />
                 </div>
                 <h3 class="text-lg font-semibold sm:text-xl md:text-2xl">
                     Berbagi Link
@@ -93,7 +97,7 @@
                 <div
                     class="p-2 bg-blue-100 text-blue-700 w-8 h-8 flex items-center justify-center rounded-md"
                 >
-                    <span>🌐</span>
+                    <Earth />
                 </div>
                 <h3 class="text-lg font-semibold sm:text-xl md:text-2xl">
                     Akses Multi-Platform
@@ -110,7 +114,7 @@
                 <div
                     class="p-2 bg-blue-100 text-blue-700 w-8 h-8 flex items-center justify-center rounded-md"
                 >
-                    <span>🔄</span>
+                    <Sync />
                 </div>
                 <h3 class="text-lg font-semibold sm:text-xl md:text-2xl">
                     Update Real-time
