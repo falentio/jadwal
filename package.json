@@ -23,7 +23,7 @@
 		"@tailwindcss/vite": "^4.0.0",
 		"@testing-library/jest-dom": "^6.6.3",
 		"@testing-library/svelte": "^5.2.4",
-		"@workos-inc/node": "^7.9.0",
+		"@workos-inc/node": "^7.50.0",
 		"jsdom": "^26.0.0",
 		"runed": "^0.26.0",
 		"shadcn-svelte": "^0.14.2",
