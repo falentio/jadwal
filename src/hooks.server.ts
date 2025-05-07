@@ -1,12 +1,10 @@
 import { env } from "$env/dynamic/private"
-// @ts-ignore
-import { WorkOS } from "@workos-inc/node/workerd"
+import { WorkOS } from "@workos-inc/node"
 import { createApplication } from "./server/applications/index.ts"
 import { dev } from "$app/environment"
 import { COOKIE } from "./server/utils/contants.ts"
 import { redirect } from "@sveltejs/kit"
 
-declare const WorkOS: typeof import("@workos-inc/node").WorkOS
 
 export const handle = async ({ event, resolve }) => {
     if (dev) {

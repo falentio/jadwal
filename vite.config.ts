@@ -12,6 +12,11 @@ export default defineConfig({
 			compiler: "svelte"
 		})
 	],
+	resolve: {
+		alias: {
+		},
+		conditions: ['workerd', 'worker', 'browser']
+	},
 	test: {
 		env: loadEnv('test', process.cwd(), ""),
 		fileParallelism: false,
