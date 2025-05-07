@@ -14,6 +14,7 @@ export default defineConfig({
 	],
 	resolve: {
 		alias: {
+			crypto: 'node:crypto'
 		},
 		conditions: ['workerd', 'worker', 'browser']
 	},
