@@ -47,7 +47,7 @@
 </script>
 
 <div
-    class="flex flex-col gap-6 bg-gradient-to-br from-blue-50 to-indigo-50 *:max-w-4xl items-center *:w-full min-h-svh py-8"
+    class="flex flex-col flex-auto gap-6 bg-gradient-to-br from-blue-50 to-indigo-50 *:max-w-4xl items-center *:w-full min-h-svh py-8"
 >
     <div class="px-6">
         <section
