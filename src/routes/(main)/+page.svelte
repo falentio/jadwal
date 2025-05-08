@@ -17,8 +17,8 @@
             Solusi simple untuk mengelola jadwal dengan cara baru
         </p>
         <div>
-            <Button>Get started</Button>
-            <Button color="secondary">Learn more</Button>
+            <Button href="/auth/login">Mulai</Button>
+            <Button color="secondary" href="#features">Fitur</Button>
         </div>
     </div>
 </section>
